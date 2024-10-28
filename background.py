@@ -8,7 +8,7 @@ class Background():
         self.screen_rect = link_game.screen.get_rect()
 
         # Load the background image and get its rect
-        self.image = pygame.image.load('media/background_forest.png')
+        self.image = pygame.image.load('media/background_chill.png')
         self.rect = self.image.get_rect()
 
     def blitme(self):
